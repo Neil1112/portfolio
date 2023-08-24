@@ -1,13 +1,100 @@
+/* src/index.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #171B21;
+  color: #c9d1d9;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card {
+  background-color: #0E1116;
 }
+
+a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Other global styles */
+/* Inside your CSS file */
+
+/* Style for the container holding the rendered Markdown content */
+.markdown-container {
+  width: 100%;
+  max-width: 1000px; /* Adjust the maximum width as needed */
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for the rendered Markdown content */
+.markdown-content {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Style for headings */
+.markdown-content h1 {
+  font-size: 28px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.markdown-content h2 {
+  font-size: 24px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.markdown-content h3 {
+  font-size: 20px;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+/* Style for paragraphs */
+.markdown-content p {
+  margin-bottom: 16px;
+}
+
+/* Style for links */
+.markdown-content a {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.markdown-content a:hover {
+  color: #0056b3;
+}
+
+/* Style for lists */
+.markdown-content ul,
+.markdown-content ol {
+  margin-left: 24px;
+  margin-bottom: 16px;
+}
+
+.markdown-content li {
+  margin-bottom: 8px;
+}
+
+/* Style for code blocks */
+.markdown-content pre {
+  background-color: #0E1116;
+  color: #58a6ff;
+  padding: 32px;
+  border-radius: 4px;
+  overflow: auto;
+}
+
+.markdown-content code {
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+
+/* Add more styles as needed */
