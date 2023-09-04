@@ -14,6 +14,7 @@ const Category = ({ categoryName, projects }) => {
         {projects.map((project) => (
           <Project
             key={project.title}
+            id={project.id}
             title={project.title}
             description={project.description}
             image={project.image}
