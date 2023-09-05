@@ -2,8 +2,6 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import SyntaxHighlighter from 'react-syntax-highlighter';
-import { atomOneDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import 'katex/dist/katex.min.css'
@@ -11,19 +9,17 @@ import 'katex/dist/katex.min.css'
 
 
 
-const ProjectDetails = () => {
+const NotesDetails = () => {
 
     const { id } = useParams();
     const [markdownContent, setMarkdownContent] = useState('');
-    const [codeString, setCodeString] = useState('');
 
     useEffect(() => {
         async function fetchMarkdownContent() {
             try {
-                const module = await import(`../markdown-strings/${id}.js`)
+                const module = await import(`../notes-strings/${id}.js`)
                 console.log(module)
                 setMarkdownContent(module.markdownContent);
-                setCodeString(module.codeString);
             } catch (error) {
                 console.log(error);
             }
@@ -41,12 +37,9 @@ const ProjectDetails = () => {
                 className='markdown-content'
             />
             
-            <SyntaxHighlighter language="python" style={atomOneDark} customStyle={{padding: '25px'}}>
-                {codeString}
-            </SyntaxHighlighter>
 
         </div>
     );
 };
 
-export default ProjectDetails;
+export default NotesDetails;

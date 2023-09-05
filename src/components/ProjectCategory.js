@@ -1,8 +1,8 @@
-// Category.js
+// ProjectCategory.js
 import React from 'react';
 import Project from './Project';
 
-const Category = ({ categoryName, projects }) => {
+const ProjectCategory = ({ categoryName, projects }) => {
   return (
     <div className="mb-8">
       <h2 className="text-2xl font-bold mb-4">
@@ -25,4 +25,4 @@ const Category = ({ categoryName, projects }) => {
   );
 };
 
-export default Category;
+export default ProjectCategory;

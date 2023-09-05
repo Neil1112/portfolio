@@ -12,7 +12,7 @@ const projects = [
       
 ];
   
-const categories = [
+const project_categories = [
 {
     name: 'Generative Adversarial Networks (GANs)',
     projects: [
@@ -22,4 +22,4 @@ const categories = [
 ];
 
 
-export { projects, categories };
+export { projects, project_categories };
