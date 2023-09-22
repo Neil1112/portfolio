@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.af9bdfc6.css",
-    "main.js": "/portfolio/static/js/main.e857a13f.js",
+    "main.css": "/portfolio/static/css/main.1c23c4bf.css",
+    "main.js": "/portfolio/static/js/main.08b20835.js",
+    "static/js/35.b020ed49.chunk.js": "/portfolio/static/js/35.b020ed49.chunk.js",
     "static/js/637.8141a7de.chunk.js": "/portfolio/static/js/637.8141a7de.chunk.js",
     "static/js/436.0a44cc41.chunk.js": "/portfolio/static/js/436.0a44cc41.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
@@ -10,9 +11,14 @@
     "static/media/discriminator_training.jpg": "/portfolio/static/media/discriminator_training.dfec74a6fb1d306565f9.jpg",
     "static/media/generator_training.jpg": "/portfolio/static/media/generator_training.7b5d09b32f86778f1868.jpg",
     "static/media/neural-networks.jpg": "/portfolio/static/media/neural-networks.504fc4af2280328b39b1.jpg",
+    "static/media/zero-shot-inference.png": "/portfolio/static/media/zero-shot-inference.a7aeda2b27e237d36b28.png",
+    "static/media/peft.png": "/portfolio/static/media/peft.cac02794cbf07d7b8346.png",
+    "static/media/full-fine-tuned.png": "/portfolio/static/media/full-fine-tuned.6b59e4849bfc00ae297d.png",
+    "static/media/absolute-percentages.png": "/portfolio/static/media/absolute-percentages.b77210efd37b375307a0.png",
     "static/media/KaTeX_AMS-Regular.ttf": "/portfolio/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/KaTeX_Main-Regular.ttf": "/portfolio/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
     "static/media/KaTeX_Main-Bold.ttf": "/portfolio/static/media/KaTeX_Main-Bold.8169508bf58f8bd92ad8.ttf",
+    "static/media/lora.png": "/portfolio/static/media/lora.448531baef620af675ce.png",
     "static/media/KaTeX_Main-Italic.ttf": "/portfolio/static/media/KaTeX_Main-Italic.fa675e5e4bec9eb250b6.ttf",
     "static/media/KaTeX_AMS-Regular.woff": "/portfolio/static/media/KaTeX_AMS-Regular.d562e886c52f12660a41.woff",
     "static/media/KaTeX_Main-BoldItalic.ttf": "/portfolio/static/media/KaTeX_Main-BoldItalic.828abcb200061cffbaae.ttf",
@@ -71,14 +77,15 @@
     "static/media/KaTeX_Size3-Regular.woff": "/portfolio/static/media/KaTeX_Size3-Regular.7947224e8a9914fa332b.woff",
     "static/media/KaTeX_Size3-Regular.woff2": "/portfolio/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/portfolio/index.html",
-    "main.af9bdfc6.css.map": "/portfolio/static/css/main.af9bdfc6.css.map",
-    "main.e857a13f.js.map": "/portfolio/static/js/main.e857a13f.js.map",
+    "main.1c23c4bf.css.map": "/portfolio/static/css/main.1c23c4bf.css.map",
+    "main.08b20835.js.map": "/portfolio/static/js/main.08b20835.js.map",
+    "35.b020ed49.chunk.js.map": "/portfolio/static/js/35.b020ed49.chunk.js.map",
     "637.8141a7de.chunk.js.map": "/portfolio/static/js/637.8141a7de.chunk.js.map",
     "436.0a44cc41.chunk.js.map": "/portfolio/static/js/436.0a44cc41.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af9bdfc6.css",
-    "static/js/main.e857a13f.js"
+    "static/css/main.1c23c4bf.css",
+    "static/js/main.08b20835.js"
   ]
 }

@@ -46,14 +46,14 @@ const Home = () => {
           >
             Projects
           </button>
-          <button
+          {/* <button
             className={`${
               showNotes ? 'bg-active text-white hover:bg-[#529E4E]' : 'bg-secondary text-gray-400 hover:bg-[#1D222B] hover:text-gray-200'
             } px-4 py-2 rounded`}
             onClick={handleShowNotesClick}
           >
             Notes
-          </button>
+          </button> */}
           <button
             className={`${
               showCertificates ? 'bg-active text-white hover:bg-[#529E4E]' : 'bg-secondary text-gray-400 hover:bg-[#1D222B] hover:text-gray-200'
