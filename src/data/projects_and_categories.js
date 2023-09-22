@@ -1,6 +1,13 @@
 import NeuralNetworksImg from '../assets/neural-networks.jpg';
 
 const projects = [
+    {
+      id: 'flan-t5-fine-tuning',
+      title: 'Flan T5 Fine Tuning for Dialogue Summarisation',
+      description: 'I fine tuned FLAN-T5 from Hugging Face for enhanced dialogue summarisation. The FLAN-T5 provides a high quality instruction tuned model and can summarise text out of the box. To improve the inferences, I applied Parameter Efficient Fine-Tuning (PEFT), particularly the Low Rank Adapter (LoRA) technique. I performed both quantitative (human) and qualitative evaluation using ROUGE metrics.',
+      image: NeuralNetworksImg,
+    },
+
     // Generative AI
     {
       id: 'gan-implementation-in-pytorch',
@@ -13,12 +20,19 @@ const projects = [
 ];
   
 const project_categories = [
-{
-    name: 'Generative Adversarial Networks (GANs)',
+  {
+    name: 'Miscellaneous',
     projects: [
-    projects[0],
+      projects[0],
     ],
-},
+  },
+
+  {
+      name: 'Generative Adversarial Networks (GANs)',
+      projects: [
+      projects[1],
+      ],
+  },
 ];
 
 
