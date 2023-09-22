@@ -8,6 +8,13 @@ const projects = [
       image: NeuralNetworksImg,
     },
 
+    {
+      id: 'neural-style-transfer',
+      title: 'Neural Style Transfer',
+      description: 'Neural Style Transfer is an optimization technique used to take two images—a content image and a style reference image (such as an artwork by a famous painter)—and blend them together so the output image looks like the content image, but “painted” in the style of the style reference image.',
+      image: NeuralNetworksImg,
+    },
+
     // Generative AI
     {
       id: 'gan-implementation-in-pytorch',
@@ -24,13 +31,14 @@ const project_categories = [
     name: 'Miscellaneous',
     projects: [
       projects[0],
+      projects[1],
     ],
   },
 
   {
       name: 'Generative Adversarial Networks (GANs)',
       projects: [
-      projects[1],
+      projects[2],
       ],
   },
 ];
