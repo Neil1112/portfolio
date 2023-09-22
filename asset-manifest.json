@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.1c23c4bf.css",
-    "main.js": "/portfolio/static/js/main.08b20835.js",
+    "main.js": "/portfolio/static/js/main.bc3c202d.js",
     "static/js/35.b020ed49.chunk.js": "/portfolio/static/js/35.b020ed49.chunk.js",
     "static/js/637.8141a7de.chunk.js": "/portfolio/static/js/637.8141a7de.chunk.js",
     "static/js/436.0a44cc41.chunk.js": "/portfolio/static/js/436.0a44cc41.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/certificate-neural-networks-and-deep-learning.jpg": "/portfolio/static/media/certificate-neural-networks-and-deep-learning.a92fd774ed922714a089.jpg",
-    "static/media/certificate-generative-ai-with-large-language-models.jpg": "/portfolio/static/media/certificate-generative-ai-with-large-language-models.f1626d3082ffe14c77c0.jpg",
     "static/media/discriminator_training.jpg": "/portfolio/static/media/discriminator_training.dfec74a6fb1d306565f9.jpg",
     "static/media/generator_training.jpg": "/portfolio/static/media/generator_training.7b5d09b32f86778f1868.jpg",
     "static/media/neural-networks.jpg": "/portfolio/static/media/neural-networks.504fc4af2280328b39b1.jpg",
     "static/media/zero-shot-inference.png": "/portfolio/static/media/zero-shot-inference.a7aeda2b27e237d36b28.png",
     "static/media/peft.png": "/portfolio/static/media/peft.cac02794cbf07d7b8346.png",
     "static/media/full-fine-tuned.png": "/portfolio/static/media/full-fine-tuned.6b59e4849bfc00ae297d.png",
+    "static/media/certificate-generative-ai-with-llm.jpg": "/portfolio/static/media/certificate-generative-ai-with-llm.739e758d37cd482c809f.jpg",
+    "static/media/certificate-neural-networks-and-deep-learning.jpg": "/portfolio/static/media/certificate-neural-networks-and-deep-learning.c284ad8216830985cc33.jpg",
+    "static/media/certificate-convolutional-neural-networks.jpg": "/portfolio/static/media/certificate-convolutional-neural-networks.4449b8027d6588c5449c.jpg",
     "static/media/absolute-percentages.png": "/portfolio/static/media/absolute-percentages.b77210efd37b375307a0.png",
     "static/media/KaTeX_AMS-Regular.ttf": "/portfolio/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/KaTeX_Main-Regular.ttf": "/portfolio/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
@@ -78,7 +79,7 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/portfolio/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/portfolio/index.html",
     "main.1c23c4bf.css.map": "/portfolio/static/css/main.1c23c4bf.css.map",
-    "main.08b20835.js.map": "/portfolio/static/js/main.08b20835.js.map",
+    "main.bc3c202d.js.map": "/portfolio/static/js/main.bc3c202d.js.map",
     "35.b020ed49.chunk.js.map": "/portfolio/static/js/35.b020ed49.chunk.js.map",
     "637.8141a7de.chunk.js.map": "/portfolio/static/js/637.8141a7de.chunk.js.map",
     "436.0a44cc41.chunk.js.map": "/portfolio/static/js/436.0a44cc41.chunk.js.map",
@@ -86,6 +87,6 @@
   },
   "entrypoints": [
     "static/css/main.1c23c4bf.css",
-    "static/js/main.08b20835.js"
+    "static/js/main.bc3c202d.js"
   ]
 }
