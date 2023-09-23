@@ -8,8 +8,7 @@ import Math4Img from '../assets/neural-style-transfer/4.png'
 import Math5Img from '../assets/neural-style-transfer/5.png'
 import Math6Img from '../assets/neural-style-transfer/6.png'
 
-export const markdownContent = `
-# Neural Style Transfer
+export const markdownContent = `# Neural Style Transfer
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Wl1Dcn10Q7aAymjSmhypX6C9FJ9GDQEE?usp=sharing)
 

@@ -15,6 +15,13 @@ const projects = [
       image: NeuralNetworksImg,
     },
 
+    {
+      id: 'recommender-system-collaborative-filtering',
+      title: 'Recommender System - Collaborative Filtering',
+      description: 'I applied the Collaborative Filtering learning algorithm to the MovieLens Dataset. The goal of a collaborative filtering recommender system is to generate two vectors. For each user a parameter vector that embodies the movie taste of a user. For each movie a feature vector of the same size which embodies some description of the movie. The dot product of the two vectors plus the bias term should produce an estimate of the rating the user might give to that movie.',
+      image: NeuralNetworksImg,
+    },
+
     // Generative AI
     {
       id: 'gan-implementation-in-pytorch',
@@ -32,13 +39,14 @@ const project_categories = [
     projects: [
       projects[0],
       projects[1],
+      projects[2],
     ],
   },
 
   {
       name: 'Generative Adversarial Networks (GANs)',
       projects: [
-      projects[2],
+      projects[3],
       ],
   },
 ];
