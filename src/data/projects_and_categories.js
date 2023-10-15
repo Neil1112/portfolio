@@ -22,6 +22,34 @@ const projects = [
       image: NeuralNetworksImg,
     },
 
+    // {
+    //   id: 'human-image-segmentation-unet-resnet18',
+    //   title: 'Human Image Segmentation - U-Net ResNet18',
+    //   description: 'I applied the U-Net architecture with ResNet18 as Encoder to detect Human Segmentation Masks using PyTorch. The Dataset contained both Real Images with their Labelled Masks. I first applied various augmentations to the dataset and then used a combination Dice Loss and Binary Cross Entropy Loss as the loss function. The ResNet18 Encoder used weights from the ImageNet Dataset.',
+    //   image: NeuralNetworksImg,
+    // },
+
+    {
+      id: 'svd-image-compression',
+      title: 'SVD Image Compression',
+      description: 'I applied Singular Value Decomposition (SVD) to compress images. SVD is a matrix factorization technique which can be used to reduce the dimensionality of the data. It is also used for image compression.',
+      image: NeuralNetworksImg,
+    },
+
+    {
+      id: 'tic-tac-toe',
+      title: 'Tic Tac Toe - Minimax Algorithm',
+      description: 'I implemented the Minimax Algorithm to create an unbeatable Tic Tac Toe AI. The Minimax Algorithm is a recursive algorithm which is used to choose an optimal move for a player assuming that the opponent is also playing optimally. It is used in two player games such as Tic Tac Toe, Chess, etc.',
+      image: NeuralNetworksImg,
+    },
+
+    {
+      id: 'gpt-knowledge-extension',
+      title: 'GPT Knowledge Extension',
+      description: 'I extended the knowledge of GPT-3.5 using Retrieval Augmented Generation (RAG) method using Langchain and ChromaDB as Vector database.',
+      image: NeuralNetworksImg,
+    },
+
     // Generative AI
     {
       id: 'gan-implementation-in-pytorch',
@@ -35,19 +63,30 @@ const projects = [
   
 const project_categories = [
   {
-    name: 'Miscellaneous',
+    name: 'Large Language Models',
     projects: [
       projects[0],
-      projects[1],
-      projects[2],
+      projects[5],
     ],
   },
 
   {
       name: 'Generative Adversarial Networks (GANs)',
       projects: [
-      projects[3],
+      projects[6],
       ],
+  },
+
+  {
+    name: 'Miscellaneous',
+    projects: [
+      projects[3],
+      projects[2],
+      projects[1],
+      projects[4],
+      projects[5],
+
+    ],
   },
 ];
 
