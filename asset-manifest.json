@@ -1,18 +1,24 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.cd6d197c.css",
-    "main.js": "/portfolio/static/js/main.30550521.js",
+    "main.js": "/portfolio/static/js/main.96834db6.js",
     "static/js/35.b020ed49.chunk.js": "/portfolio/static/js/35.b020ed49.chunk.js",
     "static/js/637.8141a7de.chunk.js": "/portfolio/static/js/637.8141a7de.chunk.js",
+    "static/js/195.7de68cb7.chunk.js": "/portfolio/static/js/195.7de68cb7.chunk.js",
     "static/js/569.2a1156ca.chunk.js": "/portfolio/static/js/569.2a1156ca.chunk.js",
     "static/js/480.1d1abb3e.chunk.js": "/portfolio/static/js/480.1d1abb3e.chunk.js",
+    "static/js/332.2f460987.chunk.js": "/portfolio/static/js/332.2f460987.chunk.js",
+    "static/js/900.d4fbae16.chunk.js": "/portfolio/static/js/900.d4fbae16.chunk.js",
     "static/js/436.0a44cc41.chunk.js": "/portfolio/static/js/436.0a44cc41.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/compression.png": "/portfolio/static/media/compression.82ee540357091e73842f.png",
     "static/media/neural-style-transfer-concept.png": "/portfolio/static/media/neural-style-transfer-concept.8ef4ed343e9512c37983.png",
     "static/media/filter-unrolling.png": "/portfolio/static/media/filter-unrolling.51e41952aef597df4bbb.png",
     "static/media/gram-matrix.png": "/portfolio/static/media/gram-matrix.82a010eb7e69c1e684b0.png",
     "static/media/discriminator_training.jpg": "/portfolio/static/media/discriminator_training.dfec74a6fb1d306565f9.jpg",
     "static/media/generator_training.jpg": "/portfolio/static/media/generator_training.7b5d09b32f86778f1868.jpg",
+    "static/media/game.png": "/portfolio/static/media/game.a19007b951c5a7826546.png",
+    "static/media/svd.jpg": "/portfolio/static/media/svd.052f63ab9e64b80fde76.jpg",
     "static/media/neural-networks.jpg": "/portfolio/static/media/neural-networks.504fc4af2280328b39b1.jpg",
     "static/media/zero-shot-inference.png": "/portfolio/static/media/zero-shot-inference.a7aeda2b27e237d36b28.png",
     "static/media/peft.png": "/portfolio/static/media/peft.cac02794cbf07d7b8346.png",
@@ -27,6 +33,7 @@
     "static/media/certificate-neural-networks-and-deep-learning.jpg": "/portfolio/static/media/certificate-neural-networks-and-deep-learning.c284ad8216830985cc33.jpg",
     "static/media/certificate-convolutional-neural-networks.jpg": "/portfolio/static/media/certificate-convolutional-neural-networks.4449b8027d6588c5449c.jpg",
     "static/media/2.png": "/portfolio/static/media/2.404e1741cdc6428b2d59.png",
+    "static/media/SVD1.png": "/portfolio/static/media/SVD1.8b7870c48ba42f2578a1.png",
     "static/media/absolute-percentages.png": "/portfolio/static/media/absolute-percentages.b77210efd37b375307a0.png",
     "static/media/KaTeX_AMS-Regular.ttf": "/portfolio/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/5.png": "/portfolio/static/media/5.5ca1c0ba1bdcde98df22.png",
@@ -39,6 +46,7 @@
     "static/media/KaTeX_Math-Italic.ttf": "/portfolio/static/media/KaTeX_Math-Italic.8a5f936332e8028c7278.ttf",
     "static/media/KaTeX_Math-BoldItalic.ttf": "/portfolio/static/media/KaTeX_Math-BoldItalic.bf2d440b3a42ea78a998.ttf",
     "static/media/KaTeX_Main-Regular.woff": "/portfolio/static/media/KaTeX_Main-Regular.4f35fbcc9ee8614c2bcc.woff",
+    "static/media/rag.jpg": "/portfolio/static/media/rag.7197efdf16702961799b.jpg",
     "static/media/KaTeX_Main-Bold.woff": "/portfolio/static/media/KaTeX_Main-Bold.0c3b8929d377c0e9b2f3.woff",
     "static/media/KaTeX_AMS-Regular.woff2": "/portfolio/static/media/KaTeX_AMS-Regular.73ea273a72f4aca30ca5.woff2",
     "static/media/KaTeX_Typewriter-Regular.ttf": "/portfolio/static/media/KaTeX_Typewriter-Regular.c5c02d763c89380dcb4e.ttf",
@@ -93,16 +101,19 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/portfolio/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/portfolio/index.html",
     "main.cd6d197c.css.map": "/portfolio/static/css/main.cd6d197c.css.map",
-    "main.30550521.js.map": "/portfolio/static/js/main.30550521.js.map",
+    "main.96834db6.js.map": "/portfolio/static/js/main.96834db6.js.map",
     "35.b020ed49.chunk.js.map": "/portfolio/static/js/35.b020ed49.chunk.js.map",
     "637.8141a7de.chunk.js.map": "/portfolio/static/js/637.8141a7de.chunk.js.map",
+    "195.7de68cb7.chunk.js.map": "/portfolio/static/js/195.7de68cb7.chunk.js.map",
     "569.2a1156ca.chunk.js.map": "/portfolio/static/js/569.2a1156ca.chunk.js.map",
     "480.1d1abb3e.chunk.js.map": "/portfolio/static/js/480.1d1abb3e.chunk.js.map",
+    "332.2f460987.chunk.js.map": "/portfolio/static/js/332.2f460987.chunk.js.map",
+    "900.d4fbae16.chunk.js.map": "/portfolio/static/js/900.d4fbae16.chunk.js.map",
     "436.0a44cc41.chunk.js.map": "/portfolio/static/js/436.0a44cc41.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd6d197c.css",
-    "static/js/main.30550521.js"
+    "static/js/main.96834db6.js"
   ]
 }
